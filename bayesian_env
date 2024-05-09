@@ -2,11 +2,13 @@
 # A script that activate python bayesian environment for bayesian statistics project
 # run using source bayesian_env
 
+echo "Remember to set the right project directory first to execute this script"
+echo "Open it with a text editor and modify"
 echo "Moving to Bayesian Project directory..."
 cd /Users/gabrielebruni/Sviluppo/Bayesian-Project/
 echo "Activating bayesian python virtual environment..."
 source bayesian-env/bin/activate
 echo "Opening Jupyter Notebook..."
-jupyter notebook
+jupyter notebook --browser=chrome
 
 echo "Process completed"
